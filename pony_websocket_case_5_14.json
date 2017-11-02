@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send unfragmented Text Message after Continuation Frame with FIN = false, where there is nothing to continue, sent in octet-wise chops.",
    "droppedByMe": false,
-   "duration": 22,
+   "duration": 2,
    "expectation": "The connection is failed immediately, since there is no message to continue.",
    "expected": {
       "OK": []
@@ -21,8 +21,8 @@
       "requireClean": false
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: 127.0.0.1:8989\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: XCwj11f8v81dGaMdHxn05g==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept:tTMeu/bT4zqvC6V4IvxVKpdck+E=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: 127.0.0.1:8989\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: 7bW+n8XPffXUwk+3W/+HmA==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept:aILtjbCR1RtocwnLt6+Bqrj5O8M=\r\n\r\n",
    "id": "5.14",
    "isServer": false,
    "localCloseCode": 1000,
@@ -41,7 +41,7 @@
       "4": 1,
       "128": 1
    },
-   "started": "2017-11-02T05:20:54.194Z",
+   "started": "2017-11-02T05:48:00.136Z",
    "trafficStats": null,
    "txFrameStats": {
       "0": 1,
@@ -49,7 +49,7 @@
       "8": 1
    },
    "txOctetStats": {
-      "1": 4,
+      "1": 2,
       "240": 1
    },
    "wasClean": true,
@@ -82,7 +82,7 @@
          0,
          false,
          0,
-         "1454476a",
+         "9117cc27",
          null,
          1,
          false
@@ -104,7 +104,7 @@
          1,
          true,
          0,
-         "1175beea",
+         "a10688d2",
          null,
          1,
          false
@@ -118,14 +118,6 @@
          [
             1,
             "98"
-         ],
-         true
-      ],
-      [
-         "TO",
-         [
-            1,
-            "14"
          ],
          true
       ],
@@ -157,18 +149,10 @@
          8,
          true,
          0,
-         "156cb213",
+         "d79dff85",
          null,
          null,
          false
-      ],
-      [
-         "TO",
-         [
-            1,
-            "54"
-         ],
-         true
       ]
    ]
 }

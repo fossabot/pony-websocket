@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send unfragmented Text Message after Continuation Frame with FIN = true, where there is nothing to continue, sent in octet-wise chops.",
    "droppedByMe": false,
-   "duration": 6,
+   "duration": 1,
    "expectation": "The connection is failed immediately, since there is no message to continue.",
    "expected": {
       "OK": []
@@ -21,8 +21,8 @@
       "requireClean": false
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: 127.0.0.1:8989\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: sKtmnVFzbv0Vr5h5SY/dHA==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept:bckj0tZ3Y4Fa8CH65ToKqWEZSQU=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: 127.0.0.1:8989\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: 3sSBlgvlRHpqYxCqO9HKkw==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept:Q5iZUSg25HB7tXTmoN4/2budrv0=\r\n\r\n",
    "id": "5.11",
    "isServer": false,
    "localCloseCode": 1000,
@@ -41,7 +41,7 @@
       "4": 1,
       "128": 1
    },
-   "started": "2017-11-02T05:20:54.178Z",
+   "started": "2017-11-02T05:48:00.117Z",
    "trafficStats": null,
    "txFrameStats": {
       "0": 1,
@@ -82,7 +82,7 @@
          0,
          true,
          0,
-         "ede94331",
+         "a71d60d0",
          null,
          1,
          false
@@ -104,7 +104,7 @@
          1,
          true,
          0,
-         "720ef224",
+         "f12dea13",
          null,
          1,
          false
@@ -149,7 +149,7 @@
          8,
          true,
          0,
-         "1b071e72",
+         "06a6f345",
          null,
          null,
          false

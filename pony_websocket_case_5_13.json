@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send unfragmented Text Message after Continuation Frame with FIN = false, where there is nothing to continue, sent in per-frame chops.",
    "droppedByMe": false,
-   "duration": 1,
+   "duration": 4,
    "expectation": "The connection is failed immediately, since there is no message to continue.",
    "expected": {
       "OK": []
@@ -21,8 +21,8 @@
       "requireClean": false
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: 127.0.0.1:8989\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: w2LhKe3KkZYny+nre343Dg==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept:8gt9gAsJ3Ky9sxotn1xP0VQUxjY=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: 127.0.0.1:8989\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: 5vdZqRFIODyLySZRjGnTfg==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept:UIp3+0Y3fxktkEDWBg8HHdwtwIg=\r\n\r\n",
    "id": "5.13",
    "isServer": false,
    "localCloseCode": 1000,
@@ -41,7 +41,7 @@
       "4": 1,
       "128": 1
    },
-   "started": "2017-11-02T05:20:54.191Z",
+   "started": "2017-11-02T05:48:00.126Z",
    "trafficStats": null,
    "txFrameStats": {
       "0": 1,
@@ -49,6 +49,7 @@
       "8": 1
    },
    "txOctetStats": {
+      "8": 1,
       "19": 1,
       "30": 1,
       "240": 1
@@ -83,7 +84,7 @@
          0,
          false,
          0,
-         "c8fce138",
+         "35b7efab",
          null,
          null,
          true
@@ -92,7 +93,7 @@
          "TO",
          [
             30,
-            "0098c8fce138a6938f15ab938f4ca1929459bc958e56e88c8041a493805c"
+            "009835b7efab5bd8818656d881df5cd99aca41de80c515c78ed259d88ecf"
          ],
          true
       ],
@@ -105,7 +106,7 @@
          1,
          true,
          0,
-         "be87ef63",
+         "0d39a874",
          null,
          null,
          true
@@ -113,6 +114,14 @@
       [
          "KL",
          1
+      ],
+      [
+         "TO",
+         [
+            19,
+            "818d0d39a874455cc41862158803624bc4102c"
+         ],
+         true
       ],
       [
          "RO",
@@ -142,7 +151,7 @@
          8,
          true,
          0,
-         "ec32a7a5",
+         "9ed61619",
          null,
          null,
          false
@@ -150,10 +159,10 @@
       [
          "TO",
          [
-            19,
-            "818dbe87ef63f6e2830fd1abcf14d1f583079f"
+            8,
+            "88829ed616199d3e"
          ],
-         true
+         false
       ]
    ]
 }
