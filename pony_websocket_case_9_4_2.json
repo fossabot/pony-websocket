@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send fragmented binary message message with message payload of length 4 * 2**20 (4M). Sent out in fragments of 256.",
    "droppedByMe": false,
-   "duration": 605,
+   "duration": 626,
    "expectation": "Receive echo'ed binary message (with payload as sent).",
    "expected": {},
    "expectedClose": {
@@ -19,8 +19,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: 127.0.0.1:8989\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: u6T6nlvIRSLFHpubj14JNg==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept:naucP00GmcIlVxO7q0n/JDTIuJU=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: 127.0.0.1:8989\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: kDgzF92vU88x/fZkJu88NA==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept:gCTSB22xorvkI4X76hbCs96jInk=\r\n\r\n",
    "id": "9.4.2",
    "isServer": false,
    "localCloseCode": 1000,
@@ -39,19 +39,20 @@
    "rxOctetStats": {
       "4": 1,
       "128": 1,
-      "2394": 1,
-      "11008": 3,
-      "15208": 1,
-      "26432": 1,
-      "29184": 1,
-      "36190": 1,
-      "39032": 1,
-      "46002": 1,
-      "47360": 1,
-      "52864": 1,
-      "65536": 59
+      "9908": 1,
+      "10384": 1,
+      "12336": 1,
+      "16880": 1,
+      "19472": 1,
+      "24344": 1,
+      "43386": 1,
+      "43488": 1,
+      "44784": 2,
+      "59220": 1,
+      "64240": 1,
+      "65536": 58
    },
-   "started": "2017-10-25T09:31:28.034Z",
+   "started": "2017-11-02T05:21:11.065Z",
    "trafficStats": null,
    "txFrameStats": {
       "0": 16384,
@@ -98,7 +99,7 @@
          8,
          true,
          0,
-         "1ff8a78e",
+         "5b6ec6d8",
          null,
          null,
          false
@@ -107,7 +108,7 @@
          "TO",
          [
             8,
-            "88821ff8a78e1c10"
+            "88825b6ec6d85886"
          ],
          false
       ],

@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send fragmented binary message message with message payload of length 4 * 2**20 (4M). Sent out in fragments of 4M.",
    "droppedByMe": false,
-   "duration": 43,
+   "duration": 40,
    "expectation": "Receive echo'ed binary message (with payload as sent).",
    "expected": {},
    "expectedClose": {
@@ -19,8 +19,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: 127.0.0.1:8989\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: bqADzzsNKDbYxzQ9YcJ/qw==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept:W+LragYStH31bs/i72wS+sHkkFM=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: 127.0.0.1:8989\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: yHsfsLkOkHm1zyr5WN97lQ==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept:ESYA7EmNRNsQIM4bXX/iaQVPRb8=\r\n\r\n",
    "id": "9.4.9",
    "isServer": false,
    "localCloseCode": 1000,
@@ -39,38 +39,14 @@
    "rxOctetStats": {
       "4": 1,
       "128": 1,
-      "2752": 1,
-      "6970": 1,
-      "11008": 1,
-      "11152": 1,
-      "13904": 1,
-      "15334": 1,
-      "16728": 1,
-      "18104": 1,
-      "26360": 1,
-      "29256": 1,
-      "30542": 1,
-      "30668": 1,
-      "31830": 1,
-      "32062": 1,
-      "33456": 1,
-      "34850": 1,
-      "36244": 1,
-      "37638": 1,
-      "39032": 2,
-      "41820": 1,
-      "43214": 1,
-      "44608": 10,
-      "46002": 1,
-      "47360": 2,
-      "47396": 1,
-      "50184": 1,
-      "54240": 1,
-      "59888": 1,
-      "61336": 1,
-      "65536": 42
+      "4576": 1,
+      "17388": 1,
+      "50866": 1,
+      "58400": 1,
+      "65388": 1,
+      "65536": 61
    },
-   "started": "2017-10-25T09:31:29.121Z",
+   "started": "2017-11-02T05:21:12.142Z",
    "trafficStats": null,
    "txFrameStats": {
       "2": 1,
@@ -115,7 +91,7 @@
          8,
          true,
          0,
-         "71575e25",
+         "4dc5d2aa",
          null,
          null,
          false
@@ -124,7 +100,7 @@
          "TO",
          [
             8,
-            "888271575e2572bf"
+            "88824dc5d2aa4e2d"
          ],
          false
       ],
